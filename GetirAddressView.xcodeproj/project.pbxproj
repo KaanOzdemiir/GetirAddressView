@@ -16,6 +16,9 @@
 		F7609AF828DB08EB00E6EF5E /* GetirAddressViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7609AF728DB08EB00E6EF5E /* GetirAddressViewTests.swift */; };
 		F7609B0228DB08EB00E6EF5E /* GetirAddressViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7609B0128DB08EB00E6EF5E /* GetirAddressViewUITests.swift */; };
 		F7609B0428DB08EB00E6EF5E /* GetirAddressViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7609B0328DB08EB00E6EF5E /* GetirAddressViewUITestsLaunchTests.swift */; };
+		F7609B1328DB091400E6EF5E /* GAddressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7609B1228DB091400E6EF5E /* GAddressView.xib */; };
+		F7609B1528DB091D00E6EF5E /* GAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7609B1428DB091D00E6EF5E /* GAddressView.swift */; };
+		F7609B1728DB0D9000E6EF5E /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7609B1628DB0D9000E6EF5E /* NibLoadable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		F7609AFD28DB08EB00E6EF5E /* GetirAddressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetirAddressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7609B0128DB08EB00E6EF5E /* GetirAddressViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetirAddressViewUITests.swift; sourceTree = "<group>"; };
 		F7609B0328DB08EB00E6EF5E /* GetirAddressViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetirAddressViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7609B1228DB091400E6EF5E /* GAddressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GAddressView.xib; sourceTree = "<group>"; };
+		F7609B1428DB091D00E6EF5E /* GAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAddressView.swift; sourceTree = "<group>"; };
+		F7609B1628DB0D9000E6EF5E /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		F7609ADF28DB08EA00E6EF5E /* GetirAddressView */ = {
 			isa = PBXGroup;
 			children = (
+				F7609B1028DB08F100E6EF5E /* GAdressView */,
 				F7609AE028DB08EA00E6EF5E /* AppDelegate.swift */,
 				F7609AE228DB08EA00E6EF5E /* SceneDelegate.swift */,
 				F7609AE428DB08EA00E6EF5E /* ViewController.swift */,
@@ -106,6 +113,7 @@
 				F7609AE928DB08EB00E6EF5E /* Assets.xcassets */,
 				F7609AEB28DB08EB00E6EF5E /* LaunchScreen.storyboard */,
 				F7609AEE28DB08EB00E6EF5E /* Info.plist */,
+				F7609B1628DB0D9000E6EF5E /* NibLoadable.swift */,
 			);
 			path = GetirAddressView;
 			sourceTree = "<group>";
@@ -125,6 +133,23 @@
 				F7609B0328DB08EB00E6EF5E /* GetirAddressViewUITestsLaunchTests.swift */,
 			);
 			path = GetirAddressViewUITests;
+			sourceTree = "<group>";
+		};
+		F7609B1028DB08F100E6EF5E /* GAdressView */ = {
+			isa = PBXGroup;
+			children = (
+				F7609B1128DB090200E6EF5E /* View */,
+			);
+			path = GAdressView;
+			sourceTree = "<group>";
+		};
+		F7609B1128DB090200E6EF5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7609B1228DB091400E6EF5E /* GAddressView.xib */,
+				F7609B1428DB091D00E6EF5E /* GAddressView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7609AED28DB08EB00E6EF5E /* LaunchScreen.storyboard in Resources */,
+				F7609B1328DB091400E6EF5E /* GAddressView.xib in Resources */,
 				F7609AEA28DB08EB00E6EF5E /* Assets.xcassets in Resources */,
 				F7609AE828DB08EA00E6EF5E /* Main.storyboard in Resources */,
 			);
@@ -259,7 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7609AE528DB08EA00E6EF5E /* ViewController.swift in Sources */,
+				F7609B1528DB091D00E6EF5E /* GAddressView.swift in Sources */,
 				F7609AE128DB08EA00E6EF5E /* AppDelegate.swift in Sources */,
+				F7609B1728DB0D9000E6EF5E /* NibLoadable.swift in Sources */,
 				F7609AE328DB08EA00E6EF5E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
